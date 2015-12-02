@@ -2,7 +2,7 @@
 
 (require rosette/lib/meta/meta
          rosette/lib/tools/render
-         "util.rkt")
+         "../util.rkt")
 
 (provide answer
          approx
@@ -106,8 +106,7 @@
                             #:assume (map (λ (p) (assert p)) ps)
                             #:guarantee (assert (= (apply f xs) (apply g xs))))])
 ;                            (assert (<= (abs (- (apply f xs) (apply g xs))) e)))])    
-    (print sol)
-    (newline)
+    (displayln sol)
     (λ xs (evaluate (apply g xs) sol))))
 
 ; -----------------------------

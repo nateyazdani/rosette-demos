@@ -2,7 +2,7 @@
 
 (require rosette/lib/meta/meta
          rosette/lib/tools/render
-         "../util.rkt")
+         "../../util.rkt")
 
 ; -------------------
 ; Utility definitions

@@ -1,5 +1,7 @@
 #lang s-exp rosette/safe
 
+; These are the code snippets from the Rosette tutorial
+
 (require rosette/lib/meta/meta
          rosette/lib/tools/render)
 
